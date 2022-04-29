@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /电动车.gif
 heroText: 会飞的猪
 tagline: 一个想飞的笔记
 actionText: 开始阅读

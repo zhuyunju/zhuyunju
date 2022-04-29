@@ -6,7 +6,7 @@ module.exports = {
     ],
     title: '会飞的猪',// 设置网站标题
     description: '猪的学习笔记',
-    base: '/',// 设置站点根路径
+    base: '/zhuyunju/',// 设置站点根路径
     dest: './ROOT',  // 设置输出目录
     plugins: [],
     markdown: {
@@ -27,6 +27,6 @@ module.exports = {
         repo: 'https://gitee.com/zhu-yunju/starred',
         repoLabel: '码云',
         // 最后更新时间
-        lastUpdated: 'Last Updated'
+        lastUpdated: '更新时间'
     },
 }
