@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Matplotilb | 会飞的猪</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="猪的学习笔记">
+    
+    <link rel="preload" href="/assets/css/0.styles.7cfabf05.css" as="style"><link rel="preload" href="/assets/js/app.32184412.js" as="script"><link rel="preload" href="/assets/js/2.bf4cfade.js" as="script"><link rel="preload" href="/assets/js/8.07aa2d75.js" as="script"><link rel="prefetch" href="/assets/js/10.2fce3ca8.js"><link rel="prefetch" href="/assets/js/11.14bf95bb.js"><link rel="prefetch" href="/assets/js/12.1c7f07f1.js"><link rel="prefetch" href="/assets/js/13.24734bd0.js"><link rel="prefetch" href="/assets/js/14.dd2da934.js"><link rel="prefetch" href="/assets/js/15.4ad28d33.js"><link rel="prefetch" href="/assets/js/16.2c8457dd.js"><link rel="prefetch" href="/assets/js/17.dd734ec5.js"><link rel="prefetch" href="/assets/js/3.cb83fe4d.js"><link rel="prefetch" href="/assets/js/4.5ea218e0.js"><link rel="prefetch" href="/assets/js/5.cdd70e81.js"><link rel="prefetch" href="/assets/js/6.4310bead.js"><link rel="prefetch" href="/assets/js/7.a4a5042a.js"><link rel="prefetch" href="/assets/js/9.1b6d8249.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7cfabf05.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="会飞的猪" class="logo"> <span class="site-name can-hide">会飞的猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/html5orcss/" class="nav-link">
+  HTML5+CSS
+</a></li><li class="dropdown-item"><!----> <a href="/notes/WEP/" class="nav-link">
+  前端移动进阶
+</a></li><li class="dropdown-item"><!----> <a href="/notes/Js/" class="nav-link">
+  Web APIs
+</a></li><li class="dropdown-item"><!----> <a href="/notes/AJAX/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/notes/Node/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/" class="nav-link">
+  uniapp
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="人工智能" class="dropdown-title"><span class="title">人工智能</span> <span class="arrow down"></span></button> <button type="button" aria-label="人工智能" class="mobile-dropdown-title"><span class="title">人工智能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/AI/numpy/" class="nav-link">
+  numpy
+</a></li><li class="dropdown-item"><!----> <a href="/AI/pandas/" class="nav-link">
+  pandas
+</a></li><li class="dropdown-item"><!----> <a href="/AI/matplotib/matplotib.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  matplotib
+</a></li><li class="dropdown-item"><!----> <a href="/AI/tensorflow/tensorflow.html" class="nav-link">
+  tensorflow
+</a></li></ul></div></div> <a href="https://gitee.com/zhu-yunju" target="_blank" rel="noopener noreferrer" class="repo-link">
+    码云
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/html5orcss/" class="nav-link">
+  HTML5+CSS
+</a></li><li class="dropdown-item"><!----> <a href="/notes/WEP/" class="nav-link">
+  前端移动进阶
+</a></li><li class="dropdown-item"><!----> <a href="/notes/Js/" class="nav-link">
+  Web APIs
+</a></li><li class="dropdown-item"><!----> <a href="/notes/AJAX/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/notes/Node/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/" class="nav-link">
+  uniapp
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="人工智能" class="dropdown-title"><span class="title">人工智能</span> <span class="arrow down"></span></button> <button type="button" aria-label="人工智能" class="mobile-dropdown-title"><span class="title">人工智能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/AI/numpy/" class="nav-link">
+  numpy
+</a></li><li class="dropdown-item"><!----> <a href="/AI/pandas/" class="nav-link">
+  pandas
+</a></li><li class="dropdown-item"><!----> <a href="/AI/matplotib/matplotib.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  matplotib
+</a></li><li class="dropdown-item"><!----> <a href="/AI/tensorflow/tensorflow.html" class="nav-link">
+  tensorflow
+</a></li></ul></div></div> <a href="https://gitee.com/zhu-yunju" target="_blank" rel="noopener noreferrer" class="repo-link">
+    码云
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="matplotilb"><a href="#matplotilb" class="header-anchor">#</a> Matplotilb</h1> <h3 id="一、介绍"><a href="#一、介绍" class="header-anchor">#</a> 一、介绍</h3> <p>Matplotilb是专门用于开发2D图表的python库</p> <h3 id="_2-1、三层结构"><a href="#_2-1、三层结构" class="header-anchor">#</a> 2.1、三层结构</h3> <h4 id="一、容器层"><a href="#一、容器层" class="header-anchor">#</a> 一、容器层</h4> <ul><li>1.画板层Canvas</li> <li>2.画布层Figure</li> <li>3.绘图层/坐标系</li></ul> <h4 id="二、辅助显示层"><a href="#二、辅助显示层" class="header-anchor">#</a> 二、辅助显示层</h4> <h4 id="三、图像层"><a href="#三、图像层" class="header-anchor">#</a> 三、图像层</h4> <h2 id="二、折现图-plot-与基本绘图功能"><a href="#二、折现图-plot-与基本绘图功能" class="header-anchor">#</a> 二、折现图（plot）与基本绘图功能</h2> <h3 id="基本步骤"><a href="#基本步骤" class="header-anchor">#</a> 基本步骤</h3> <ul><li>1.创建画布</li> <li>2.绘制图像</li> <li>3.显示图像</li></ul> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token comment"># 相应的包</span>
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+
+<span class="token comment"># 1.创建画布（函数plt.figure()）</span>
+plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span>figsize<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">,</span>dpi<span class="token operator">=</span><span class="token number">80</span><span class="token punctuation">)</span>
+    <span class="token comment">### figsize:画布大小</span>
+    <span class="token comment">### dpi ： 清晰度</span>
+    
+<span class="token comment"># 2.绘制图像</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 保存图像（保存图像代码应位于plt.show()之前）</span>
+<span class="token comment"># plt.savefig(&quot;存放路径/名称&quot;)</span>
+
+<span class="token comment"># 3.显示图像</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p><img src="/assets/img/output_7_0.cf85c84a.png" alt="png"></p> <h3 id="辅助显示层"><a href="#辅助显示层" class="header-anchor">#</a> 辅助显示层</h3> <div class="language-python line-numbers-mode"><pre class="language-python"><code><span class="token keyword">import</span> random
+<span class="token comment"># 1、准备数据 X Y</span>
+x <span class="token operator">=</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">60</span><span class="token punctuation">)</span>
+y_hefei <span class="token operator">=</span> <span class="token punctuation">[</span>random<span class="token punctuation">.</span>uniform<span class="token punctuation">(</span><span class="token number">15</span><span class="token punctuation">,</span><span class="token number">18</span><span class="token punctuation">)</span><span class="token keyword">for</span> i <span class="token keyword">in</span> x<span class="token punctuation">]</span>
+y_huainan <span class="token operator">=</span> <span class="token punctuation">[</span>random<span class="token punctuation">.</span>uniform<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token keyword">for</span> i <span class="token keyword">in</span> x<span class="token punctuation">]</span>
+
+
+<span class="token comment"># 画图步骤</span>
+<span class="token comment"># 2、创建画布</span>
+plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span>figsize<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">,</span>dpi<span class="token operator">=</span><span class="token number">80</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 3、绘制图像</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y_huainan<span class="token punctuation">,</span>color<span class="token operator">=</span><span class="token string">'r'</span><span class="token punctuation">,</span> linestyle<span class="token operator">=</span><span class="token string">'-.'</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'上海'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y_hefei<span class="token punctuation">,</span>color<span class="token operator">=</span><span class="token string">'b'</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'合肥'</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 添加了Label标签需显示图例plt.legend()</span>
+plt<span class="token punctuation">.</span>legend<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#放参数可以控制图例位置（可数字）</span>
+
+<span class="token comment"># 修改x,y刻度</span>
+<span class="token comment"># 准备x的刻度说明 </span>
+x_label <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'11点{}分'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> x<span class="token punctuation">]</span>
+<span class="token comment"># 添加x刻度</span>
+plt<span class="token punctuation">.</span>xticks<span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span>x_label<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token comment"># 添加y刻度</span>
+plt<span class="token punctuation">.</span>yticks<span class="token punctuation">(</span><span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 添加网格显示，其中alpha是网格的透明程度,linestyle显示线格样式</span>
+plt<span class="token punctuation">.</span>grid<span class="token punctuation">(</span>linestyle<span class="token operator">=</span><span class="token string">'--'</span><span class="token punctuation">,</span>alpha<span class="token operator">=</span><span class="token number">0.5</span><span class="token punctuation">)</span>
+
+<span class="token comment">#添加描述</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">&quot;时间变化&quot;</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">&quot;温度变化&quot;</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">&quot;合肥、淮南温度变化状况&quot;</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 4、显示图片</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><p><img src="/assets/img/output_9_0.d0e8f727.png" alt="png"></p> <div class="language-python line-numbers-mode"><pre class="language-python"><code>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">4/29/2022, 7:56:12 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.32184412.js" defer></script><script src="/assets/js/2.bf4cfade.js" defer></script><script src="/assets/js/8.07aa2d75.js" defer></script>
+  </body>
+</html>
